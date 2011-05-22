@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [ "http://translate.google.*" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "converted_from_user_script": true,
+   "description": "Adds stars on Google Translate for your preferred languages",
+   "key": "XXIVLBjMkybV5L3k7SV8ZUCyWpZYkt7X0QBLypm+ZUU=",
+   "name": "Langicon for Google translate",
+   "version": "1.0"
+}
