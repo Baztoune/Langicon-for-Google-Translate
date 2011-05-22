@@ -112,10 +112,10 @@ var langicon = {
 		}
 		GM_setValue(idButton+"-langs", ar.toString());
 	},
-	toggleLang : function(evt){
-		langicon.toggleLangPref(idButton,evt.target.nextSibling.textContent);
-		langicon.utils.toggleClass(evt.target, "langicon-plus");
-		langicon.utils.toggleClass(evt.target, "langicon-star");
+	toggleLang : function(idButton, elmt){
+		langicon.toggleLangPref(idButton,elmt.nextSibling.textContent);
+		langicon.utils.toggleClass(elmt, "langicon-plus");
+		langicon.utils.toggleClass(elmt, "langicon-star");
 	},
 
 	buildMenu : function(idButton){
@@ -153,19 +153,23 @@ var langicon = {
 			/* add event listener and style to new elements */
 			arLen=newElementsArray.length;
 			while (arLen--) {
-				newElementsArray[arLen].addEventListener("click", langicon.toggleLang, true);
+				newElementsArray[arLen].addEventListener("click", function(evt){langicon.toggleLang(idButton, evt.target)}, true);
 			}
+		}
+	},
+	
+	init : function(nb_try) {		
+		if (document.getElementById('gt-sl-gms')) {
+			var srcButton = document.getElementById('gt-sl-gms');
+			var tgtButton = document.getElementById('gt-tl-gms');
+			srcButton.addEventListener("click", function(){langicon.buildMenu("gt-sl-gms");}, true);
+			tgtButton.addEventListener("click", function(){langicon.buildMenu("gt-tl-gms");}, true);
+		} else if (nb_try--){
+			window.setTimeout(function(){langicon.init(nb_try)}, 50); // loop for waiting
 		}
 	}
 };
 window.addEventListener("load", function() {
 	langicon.addCss();
-	window.setTimeout(function(){
-		// wait for the buttons to be loaded TODO add timer and retry
-		/* wait for the menus to be created after clicking on the button */
-		var srcButton = document.getElementById('gt-sl-gms');
-		var tgtButton = document.getElementById('gt-tl-gms');
-		srcButton.addEventListener("click", function(){langicon.buildMenu("gt-sl-gms");}, true);
-		tgtButton.addEventListener("click", function(){langicon.buildMenu("gt-tl-gms");}, true);
-	}, 1000);
+	langicon.init(20);
 }, false);
