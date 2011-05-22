@@ -157,7 +157,7 @@ var langicon = {
 		}
 	}
 };
-window.addEventListener("load", function(e) {
+window.addEventListener("load", function() {
 	langicon.addCss();
 	window.setTimeout(function(){
 		// wait for the buttons to be loaded TODO add timer and retry
