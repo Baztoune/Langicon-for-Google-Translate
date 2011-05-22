@@ -10,7 +10,7 @@ var langicon = {
 	plusImgOrig : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFwcHBwMDA+/v7u7u7/Pz8rq6uMzMz/v7+9/f37u7utLS0////5+fnDw8P7+/vQEBA5ubms7OzsLCw29vb3NzcysrKKysr6+vrODg49fX1+fn59vb27e3t+vr63t7esbGxvr6+ubm57Ozs8/Pzurq69PT0/f39808chgAAAGZJREFUeNokyAcSgzAMRFGBCYEUUiDFVcTy+v5HDMZ/ZkdvRIHTr5Q40MPnmrkQlXvcNoy0FjdtNhKrb87q3eemv76fXf23n+9rmbDby2GO2EydAbwTiKOTtQAEWt8psEolxeEvwACFcA1c1mQTHgAAAABJRU5ErkJggg==",
 	plusImgFade : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEhQTFRF9fX18fHx39/fs7Ozn5+fqqqq4eHh/Pz8+fn56urqr6+vra2t+Pj48vLy4uLi4ODg+vr69/f3/f395ubm4+Pj+/v7/////v7+YjGLWwAAAFRJREFUeNokjUkOwCAMA0P3JTQhYPj/TwtkJMsjX0xRyjcoEkmsOUaUR9eek92zNdPkvjIwveZ325fmu6XnDhfcdQkJ0w0wVijTgYH2EPVfR+IvwAApRgg/uGTlgQAAAABJRU5ErkJggg==",
 	starPng : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAMAAACecocUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTREOUE0QzQ4MzI0MTFFMEI2QTFFNThCMzkxRkU1NDIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTREOUE0QzM4MzI0MTFFMEI2QTFFNThCMzkxRkU1NDIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5kaWQ6RTE5NkJBRjkyMzgzRTAxMThENDdCNzA4Qjk3OTU5MUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RTE5NkJBRjkyMzgzRTAxMThENDdCNzA4Qjk3OTU5MUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5YpVj6AAAAvVBMVEX/9Da/0uT/9oLy9vrQ3ev/+QAuaam2wlf6+/zZ5O/+/v+otzzw9fmdr0/K1+eGoXvz7UBXiLL/8ADH1+lMfrqjtnL98ont8vZEeatrlKyCnnj09/o/dqj/9ACowNhZiLj/8wBbgoWXstCWstBFd57//65/n7z58Yb//612msLEySOYrZJEdp6XrZJulsY/daj/9QAJTJdtlsZZh7hXhaB/nrv/8jfEySL/9YhXhZ/w5gt/m5758oZ2mcL///+4sNZ0AAAAP3RSTlP//////////////////////////////////////////////////////////////////////////////////wCOJnwXAAAAfElEQVR42izMxxKCABAD0KX33kHFRrFSLKDg/v9nuc54yORdEkBEle94lRooWTk9sr+5c73nfv4sYvFevMS4OcDtws7hGFbsKYfISW14gp06EaDuG8t1a/g6beXrILyFYy+TTcvVNpprmWRPCrarXSB5ZCZR6FtJGPwKMACa4hBgqt1ZGAAAAABJRU5ErkJggg==",
-	iconGenerated : new Array(),
+	iconGenerated : [],
 
 	utils : {
 		/* CSS class utils */
@@ -19,7 +19,7 @@ var langicon = {
 			if (document.documentElement.classList) {
 				containsClass = function (elm, className) {
 					return elm.classList.contains(className);
-				}
+				};
 			} else {
 				containsClass = function (elm, className) {
 					if (!elm || !elm.className) {
@@ -27,7 +27,7 @@ var langicon = {
 					}
 					var re = new RegExp('(^|\\s)' + className + '(\\s|$)');
 					return elm.className.match(re);
-				}
+				};
 			}
 			return containsClass(elm, className);
 		},
@@ -35,7 +35,7 @@ var langicon = {
 			if (document.documentElement.classList) {
 				addClass = function (elm, className) {
 					elm.classList.add(className);
-				}
+				};
 			} else {
 				addClass = function (elm, className) {
 					if (!elm) {
@@ -44,7 +44,7 @@ var langicon = {
 					if (!langicon.utils.containsClass(elm, className)) {
 						elm.className += (elm.className ? " " : "") + className;
 					}
-				}
+				};
 			}
 			addClass(elm, className);
 		},
@@ -52,7 +52,7 @@ var langicon = {
 			if (document.documentElement.classList) {
 				removeClass = function (elm, className) {
 					elm.classList.remove(className);
-				}
+				};
 			} else {
 				removeClass = function (elm, className) {
 					if (!elm || !elm.className) {
@@ -60,7 +60,7 @@ var langicon = {
 					}
 					var regexp = new RegExp("(^|\\s)" + className + "(\\s|$)", "g");
 					elm.className = elm.className.replace(regexp, "$2");
-				}
+				};
 			}
 			removeClass(elm, className);
 		},
@@ -68,7 +68,7 @@ var langicon = {
 			if (document.documentElement.classList) {
 				toggleClass = function (elm, className) {
 					return elm.classList.toggle(className);
-				}
+				};
 			} else {
 				toggleClass = function (elm, className) {
 					if (langicon.utils.containsClass(elm, className)) {
@@ -78,7 +78,7 @@ var langicon = {
 						langicon.utils.addClass(elm, className);
 						return true;
 					}
-				}
+				};
 			}
 			return toggleClass(elm, className);
 		}
@@ -91,8 +91,8 @@ var langicon = {
 		document.getElementsByTagName('head')[0].appendChild(style);
 	},
 
-	toggleLang : function(idButton, lang){
-		var ar = new Array();
+	toggleLangPref : function(idButton, lang){
+		var ar = [];
 		var val = GM_getValue(idButton+"-langs");
 		if(val !== undefined && val !==""){
 			ar = val.split(",");
@@ -111,12 +111,18 @@ var langicon = {
 		}
 		GM_setValue(idButton+"-langs", ar.toString());
 	},
+	toggleLang : function(evt){
+		langicon.toggleLangPref(idButton,evt.target.nextSibling.textContent);
+		langicon.utils.toggleClass(evt.target, "langicon-plus");
+		langicon.utils.toggleClass(evt.target, "langicon-star");
+	},
 
 	buildMenu : function(idButton){
+		
 		if(langicon.iconGenerated.indexOf(idButton)===-1){
 			langicon.iconGenerated.push(idButton); // remember so we don't insert icons 2 times
 			/* util - prepare array so we load it just 1 time*/
-			var ar = new Array();
+			var ar = [];
 			var val = GM_getValue(idButton+"-langs");
 			if(val !== undefined && val !==""){
 				ar = val.split(",");
@@ -131,7 +137,7 @@ var langicon = {
 			var langArray = menu.getElementsByClassName('goog-option');
 			
 			/* insert new elements */
-			var newElementsArray = new Array();
+			var newElementsArray = [];
 			var arLen=langArray.length;
 			while (arLen--) {
 				var newDiv = div.cloneNode(true);
@@ -144,17 +150,13 @@ var langicon = {
 			}
 			
 			/* add event listener and style to new elements */
-			var arLen=newElementsArray.length;
+			arLen=newElementsArray.length;
 			while (arLen--) {
-				newElementsArray[arLen].addEventListener("click", function(evt){
-					langicon.toggleLang(idButton,evt.target.nextSibling.textContent);
-					langicon.utils.toggleClass(evt.target, "langicon-plus");
-					langicon.utils.toggleClass(evt.target, "langicon-star");
-				}, true);
+				newElementsArray[arLen].addEventListener("click", langicon.toggleLang, true);
 			}
 		}
 	}
-}
+};
 window.addEventListener("load", function(e) {
 	langicon.addCss();
 	window.setTimeout(function(){
@@ -162,7 +164,7 @@ window.addEventListener("load", function(e) {
 		/* wait for the menus to be created after clicking on the button */
 		var srcButton = document.getElementById('gt-sl-gms');
 		var tgtButton = document.getElementById('gt-tl-gms');
-		srcButton.addEventListener("click", function(){langicon.buildMenu("gt-sl-gms")}, true);
-		tgtButton.addEventListener("click", function(){langicon.buildMenu("gt-tl-gms")}, true);
+		srcButton.addEventListener("click", function(){langicon.buildMenu("gt-sl-gms");}, true);
+		tgtButton.addEventListener("click", function(){langicon.buildMenu("gt-tl-gms");}, true);
 	}, 1000);
 }, false);
