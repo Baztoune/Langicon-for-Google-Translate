@@ -88,6 +88,7 @@ var langicon = {
 		var style = document.createElement('style');
 		style.type = 'text/css';
 		style.innerHTML = '.langicon-box {background-repeat:no-repeat; background-position:right center; margin:5px 5px 0px 0px; width:11px; height:11px; float:left; } .langicon-plus { background-image:url("' + langicon.plusImgFade + '"); } .langicon-plus:hover { background-image:url("' + langicon.plusImgOrig + '"); cursor:pointer; } .langicon-star { background-image:url("' + langicon.starPng + '"); }';
+		style.innerHTML += '.goog-menuitem{margin-left:13px;margin-right:0px;}';
 		document.getElementsByTagName('head')[0].appendChild(style);
 	},
 
