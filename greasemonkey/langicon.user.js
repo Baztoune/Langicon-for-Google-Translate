@@ -157,7 +157,7 @@ var langicon = {
 			}
 		}
 	},
-	
+
 	init : function(nb_try) {		
 		if (document.getElementById('gt-sl-gms')) {
 			var srcButton = document.getElementById('gt-sl-gms');
