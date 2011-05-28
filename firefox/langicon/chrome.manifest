@@ -1,0 +1,6 @@
+content   langicon                 chrome/content/
+skin      langicon   classic/1.0   chrome/skin/
+locale    langicon   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://langicon/content/ff-overlay.xul
